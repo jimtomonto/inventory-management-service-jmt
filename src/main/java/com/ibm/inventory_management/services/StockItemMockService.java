@@ -21,6 +21,8 @@ public class StockItemMockService implements StockItemApi {
                                 new StockItem("3").withName("Item 3").withStock(10).withPrice(1000.0)
                                                 .withManufacturer("Panasonic"),
                                 new StockItem("4").withName("Item 4 from service mock").withStock(10).withPrice(1000.0)
-                                                .withManufacturer("Apple"));
+                                                .withManufacturer("Apple"),
+                                new StockItem("5").withName("Item 5 to show Argo CD update").withStock(11)
+                                                .withPrice(101.0).withManufacturer("Apple"));
         }
 }
