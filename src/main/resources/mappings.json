@@ -1,2 +1,15 @@
 {
+  "DATABASE_NAME": "inventory-dev-jmt",
+  "CLOUDANT_CONFIG": {
+    "apikey": "L0rafZGvKjx37GD1IEMKWr6cti5IiSkcHt1uc_iwrofH",
+    "host": "b771ecef-c0b3-4115-add5-f2cfadbc63a7-bluemix.cloudantnosqldb.appdomain.cloud",
+    "iam_apikey_description": "Auto-generated for key 947c6a32-1527-48b3-9d2d-f1b8886899b1",
+    "iam_apikey_name": "Service credentials-1",
+    "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+    "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/b636d1d83e34d7ae7e904591ac248cfa::serviceid:ServiceId-f13a01f6-492d-4649-a64e-941391310619",
+    "password": "5b87108ad5f22f6e97c11ae4ba21207c2175f3ead44950ea8c17349e4150648e",
+    "port": 443,
+    "url": "https://b771ecef-c0b3-4115-add5-f2cfadbc63a7-bluemix:5b87108ad5f22f6e97c11ae4ba21207c2175f3ead44950ea8c17349e4150648e@b771ecef-c0b3-4115-add5-f2cfadbc63a7-bluemix.cloudantnosqldb.appdomain.cloud",
+    "username": "b771ecef-c0b3-4115-add5-f2cfadbc63a7-bluemix"
+  }
 }

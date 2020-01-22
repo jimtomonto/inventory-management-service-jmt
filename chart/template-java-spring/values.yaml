@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 global: {}
 
-cloudantBinding: ""
-databaseName: ""
+cloudantBinding: 'mooc-one-ocp-cloudant'
+databaseName: 'inventory-dev-jmt'
 
 replicaCount: 1
 
@@ -14,8 +14,8 @@ image:
   pullPolicy: IfNotPresent
   port: 9080
 
-nameOverride: ""
-fullnameOverride: ""
+nameOverride: ''
+fullnameOverride: ''
 
 service:
   type: ClusterIP
@@ -28,9 +28,8 @@ ingress:
     # web or app - https://cloud.ibm.com/docs/services/appid?topic=appid-kube-auth
     requestType: web
 
-#  host: hello
+  #  host: hello
   namespaceInHost: true
   subdomain: containers.appdomain.cloud
-  path: "/"
-
+  path: '/'
 #  tlsSecretName: ""
