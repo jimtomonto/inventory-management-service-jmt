@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 global: {}
 
-cloudantBinding: 'mooc-one-ocp-cloudant'
+cloudantBinding: 'binding-mooc-one-ocp-cloudant'
 databaseName: 'inventory-dev-jmt'
 
 replicaCount: 1
