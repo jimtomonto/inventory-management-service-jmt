@@ -23,7 +23,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "swagger-mock-validator": "^4.0.1"
+    "swagger-mock-validator": "^10.1.4"
   },
   "dependencies": {},
   "engines": {
